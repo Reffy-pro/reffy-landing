@@ -85,7 +85,7 @@ const recentPosts = [
   { id: 3, name: 'Improve your customer experience', href: '#' },
 ];
 
-export default function Hero() {
+export default function Header(props) {
   return (
     <div className="relative bg-slate-50">
       <Popover className="relative bg-white shadow">
@@ -94,7 +94,7 @@ export default function Hero() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Reffy</span>
-                <img className="h-8 w-auto sm:h-10" src="/assets/reffy-logo.svg" alt="" />
+                {props.logo}
               </a>
             </div>
             <div className="-my-2 -mr-2 md:hidden">
