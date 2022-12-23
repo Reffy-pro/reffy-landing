@@ -74,15 +74,12 @@ jobs:
         with:
           path: ${{ env.BUILD_PATH }}/dist
           
-          
-  publish-release:
-    name: Publish GitHub Release Artifacts
-    uses: SierraSoftworks/gh-releases@v1.0.6
-    needs: build
-    with:
-      token: secrets.GITHUB_TOKEN
-      files: |
-        - dist/
+      - name: Publish GitHub Release Artifacts
+        uses: SierraSoftworks/gh-releases@v1.0.6
+        with:
+          token: secrets.GITHUB_TOKEN
+          files: |
+            - dist/
 
   deploy:
     environment:
