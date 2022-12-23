@@ -1,0 +1,37 @@
+{
+  "name": "Features",
+  "title": "Everything you need to deploy your app",
+  "description": "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.",
+  "features": [
+    {
+      "name": "Push to Deploy",
+      "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "icon": "heroicons:cloud-arrow-up"
+    },
+    {
+      "name": "SSL Certificates",
+      "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "icon": "heroicons:lock-closed"
+    },
+    {
+      "name": "Simple Queues",
+      "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "icon": "heroicons:arrow-path"
+    },
+    {
+      "name": "Advanced Security",
+      "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "icon": "heroicons:shield-check"
+    },
+    {
+      "name": "Powerful API",
+      "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "icon": "heroicons:cog"
+    },
+    {
+      "name": "Database Backups",
+      "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "icon": "heroicons:server"
+    }
+  ]
+}

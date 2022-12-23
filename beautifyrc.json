@@ -1,0 +1,13 @@
+{
+  "indent_size": 2,
+  "editorconfig": true,
+  "end_with_newline": true,
+  "indent_level": 0,
+  "preserve_newlines": true,
+  "max_preserve_newlines": 0,
+  "wrap_line_length": 120,
+  "indent_empty_lines": false,
+  "html" : {
+    "extra_liners": ["head","body","/html","template"]
+  }
+}

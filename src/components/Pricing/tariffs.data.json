@@ -1,0 +1,47 @@
+{
+  "name": "Pricing",
+  "title": "The right price for you, <>whoever you are",
+  "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam eligendi quos odit doloribus molestiae voluptatum.",
+  "tariffs": [
+    {
+      "name": "Hobby",
+      "description": "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis.",
+      "price": "49",
+      "features": [
+        "Pariatur quod similique",
+        "Sapiente libero doloribus modi nostrum",
+        "Vel ipsa esse repudiandae excepturi",
+        "Itaque cupiditate adipisci quibusdam"
+      ],
+      "cta": {
+        "name": "Get started today",
+        "href": "#"
+      }
+    },
+    {
+      "name": "Team",
+      "description": "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis.",
+      "price": "79",
+      "features": [
+        "Pariatur quod similique",
+        "Sapiente libero doloribus modi nostrum",
+        "Vel ipsa esse repudiandae excepturi",
+        "Itaque cupiditate adipisci quibusdam",
+        "Sapiente libero doloribus modi nostrum"
+      ],
+      "cta": {
+        "name": "Get started today",
+        "href": "#"
+      }
+    }
+  ],
+  "discountedTariff": {
+    "name": "Discounted",
+    "description": "Get full access to all of standard license features for solo projects that make less than $20k gross revenue for ",
+    "price": "29",
+    "cta": {
+      "name": "Buy discounted license ",
+      "href": "#"
+    }
+  }
+}

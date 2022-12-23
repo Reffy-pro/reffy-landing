@@ -1,0 +1,47 @@
+---
+import { Icon } from "astro-icon";
+import data from "./footer.data.json";
+
+const { navigation, social, copyright } = data;
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-white">
+  <div class="mx-auto max-w-7xl overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
+    {
+      navigation && navigation.length && (
+        <nav aria-label="Footer">
+          <ul class="flex flex-wrap justify-center text-base">
+            {navigation.map((item) => (
+              <li class="px-5 py-2">
+                <a href={item.href} class="link link--box">
+                  {item.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+
+    {
+      social && social.length && (
+        <ul class="mt-8 flex justify-center space-x-6">
+          {social.map((item) => (
+            <li>
+              <a href={item.href} class="h-6 w-6 text-slate-400 hover:text-slate-600">
+                <span class="sr-only">{item.name}</span>
+                <Icon class="h-6 w-6" aria-hidden="true" name={item.icon} />
+              </a>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+
+    <p class="mt-8 text-center text-base text-slate-400">
+      &copy; {currentYear}
+      {copyright.text}
+    </p>
+  </div>
+</footer>

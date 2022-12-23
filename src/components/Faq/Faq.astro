@@ -1,0 +1,23 @@
+---
+import Faqs from "./Faqs";
+import data from "./faqs.data.json";
+
+const { title, description } = data;
+---
+
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-3xl divide-y-2 divide-slate-300">
+      <div class="text-center space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+        <h2 class="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+          {title}
+        </h2>
+        {description && <p class="text-xl text-slate-500">{description}</p>}
+      </div>
+
+      <div class="mt-6">
+        <Faqs client:load />
+      </div>
+    </div>
+  </div>
+</div>

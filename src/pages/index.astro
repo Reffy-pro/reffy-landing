@@ -1,0 +1,58 @@
+---
+// Component Imports
+import MainHead from "../components/MainHead.astro";
+import Header from "../components/Header/Header.jsx";
+import Hero from "../components/Hero/Hero.astro";
+import Footer from "../components/Footer/Footer.astro";
+import Contacts from "../components/Contacts/Contacts.astro";
+import Team from "../components/Team/Team.astro";
+import SubscribeForm from "../components/SubscribeForm/SubscribeForm.astro";
+import Testimonials from "../components/Testimonials/Testimonials.astro";
+import Faq from "../components/Faq/Faq.astro";
+import CTASection from "../components/CTASection/CTASection.astro";
+import Pricing from "../components/Pricing/Pricing.astro";
+import FeaturesCards from "../components/Features/FeaturesCards.astro";
+import AppFeatures from "../components/Features/AppFeatures.astro";
+import Stats from "../components/Stats/Stats.astro";
+// import type { Project } from "../types";
+
+// Data Fetching: List all Markdown posts in the repo.
+// const projects = await Astro.glob<Project>("./project/**/*.md");
+// const featuredProject = projects[0]!;
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+  <head>
+    <MainHead />
+  </head>
+  <body class="bg-w">
+    <Header client:visible />
+
+    <Hero />
+
+    <Stats />
+
+    <AppFeatures />
+
+    <CTASection />
+
+    <FeaturesCards />
+
+    <Pricing />
+
+    <Faq />
+
+    <Testimonials />
+
+    <SubscribeForm />
+
+    <Team />
+
+    <Contacts />
+
+    <Footer />
+  </body>
+</html>

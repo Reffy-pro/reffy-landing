@@ -1,0 +1,57 @@
+{
+  "title": "Our Team",
+  "description": "Odio nisi, lectus dis nulla. Ultrices maecenas vitae rutrum dolor ultricies donec risus sodales. Tempus quis et.",
+  "persons": [
+    {
+      "name": "Lindsay Walton",
+      "jobTitle": "Front-end Developer",
+      "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+      "social": [
+        {
+          "name": "GitHub",
+          "href": "#",
+          "icon": "cib:github"
+        },
+        {
+          "name": "Twitter",
+          "href": "#",
+          "icon": "cib:twitter"
+        },
+        {
+          "name": "Linkedin",
+          "href": "#",
+          "icon": "cib:linkedin"
+        }
+      ]
+    },
+    {
+      "name": "Isabella Jaskolski",
+      "jobTitle": "Future Interactions Assistant",
+      "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+      "social": [
+        {
+          "name": "Facebook",
+          "href": "#",
+          "icon": "cib:facebook"
+        },
+        {
+          "name": "Instagram",
+          "href": "#",
+          "icon": "cib:instagram"
+        }
+      ]
+    },
+    {
+      "name": "Payton Green",
+      "jobTitle": "Regional Division Planner",
+      "picture": "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+      "social": [
+        {
+          "name": "Linkedin",
+          "href": "#",
+          "icon": "cib:linkedin"
+        }
+      ]
+    }
+  ]
+}

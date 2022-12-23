@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Sales Support",
+    "description": "Dolores cumque error qui quis cumque nobis sed non. Alias aut odit. Et voluptas necessitatibus molestias voluptates sequi ipsum. Blanditiis quibusdam quo veniam deleniti tempore.",
+    "contacts": [
+      {
+        "type": "phone",
+        "icon": "heroicons:phone",
+        "text": "+1 (555) 123 4567",
+        "href": "tel:+15551234567",
+        "description": ["Mon-Fri 8am to 6pm PST", "Sat 10am to 4pm PST"]
+      },
+      {
+        "type": "email",
+        "icon": "heroicons:envelope",
+        "text": "support@example.com",
+        "href": "mailto:support@example.com"
+      }
+    ]
+  },
+  {
+    "title": "Technical Support",
+    "description": "Voluptatem tempore accusantium et optio eos dignissimos dignissimos. Rerum eligendi consequatur. Aut est voluptatem enim eos iste molestiae exercitationem. Vel eaque ut est sit. Quibusdam architecto minus odit et dolore aut et quo.",
+    "contacts": [
+      {
+        "type": "phone",
+        "icon": "heroicons:phone",
+        "text": "+1 (555) 123 4567",
+        "description": "Mon-Fri 8am to 6pm PST"
+      },
+      {
+        "type": "email",
+        "icon": "heroicons:envelope",
+        "text": "support@example.com"
+      }
+    ]
+  }
+]

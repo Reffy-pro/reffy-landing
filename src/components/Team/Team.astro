@@ -1,0 +1,52 @@
+---
+import { Icon } from "astro-icon";
+import data from "./team.data.json";
+
+const { title, description, persons } = data;
+---
+
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
+    <div class="space-y-12">
+      <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+        <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{title}</h2>
+        <p class="text-xl text-slate-500">{description}</p>
+      </div>
+      <ul
+        role="list"
+        class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
+      >
+        {
+          persons.map((person) => (
+            <li>
+              <div class="space-y-4">
+                <div class="aspect-w-3 aspect-h-2">
+                  <img class="rounded-lg object-cover shadow-lg" src={person.picture} alt="" />
+                </div>
+
+                <div class="space-y-2">
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3>{person.name}</h3>
+                    <p class="text-blue-600">{person.jobTitle}</p>
+                  </div>
+                  {person.social && person.social.length && (
+                    <ul role="list" class="flex space-x-5">
+                      {person.social.map((item) => (
+                        <li>
+                          <a href={item.href} class="h-6 w-6 text-slate-400 hover:text-slate-600">
+                            <span class="sr-only">{item.name}</span>
+                            <Icon class="h-5 w-5" aria-hidden="true" name={item.icon} />
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</div>

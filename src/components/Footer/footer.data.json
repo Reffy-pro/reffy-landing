@@ -1,0 +1,36 @@
+{
+  "navigation": [
+    { "name": "About", "href": "/about" },
+    { "name": "Blog", "href": "#" },
+    { "name": "Jobs", "href": "#" },
+    { "name": "Press", "href": "#" },
+    { "name": "Accessibility", "href": "#" },
+    { "name": "Partners", "href": "#" }
+  ],
+  "social:comment": "#for icons mapping see https://icon-sets.iconify.design/cib/",
+  "social": [
+    {
+      "name": "Facebook",
+      "href": "#",
+      "icon": "cib:facebook"
+    },
+    {
+      "name": "Instagram",
+      "href": "#",
+      "icon": "cib:instagram"
+    },
+    {
+      "name": "Twitter",
+      "href": "#",
+      "icon": "cib:twitter"
+    },
+    {
+      "name": "GitHub",
+      "href": "#",
+      "icon": "cib:github"
+    }
+  ],
+  "copyright": {
+    "text": "Reffy. All rights reserved."
+  }
+}

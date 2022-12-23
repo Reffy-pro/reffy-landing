@@ -1,0 +1,31 @@
+---
+import { SEO } from "astro-seo";
+import "../styles/global.css";
+
+const {
+  title = "Reffy.io",
+  description = "Reffy.io - platform that helps employees bring x5 times more referral candidates spending minutes instead of hours",
+} = Astro.props;
+---
+
+<SEO
+  title={title}
+  description={description}
+  charset="UTF-8"
+  extend={{
+    link: [
+      // { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;400;500;700;900&display=swap",
+      },
+    ],
+    meta: [
+      { name: "viewport", content: "width=device-width" },
+      { name: "generator", content: Astro.generator },
+    ],
+  }}
+/>
