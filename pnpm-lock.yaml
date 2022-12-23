@@ -15,7 +15,7 @@ specifiers:
   '@types/react-dom': ^18.0.6
   astro: ^1.7.1
   astro-compress: ^1.1.23
-  astro-icon: https://gitpkg.now.sh/stramel/astro-icon/packages/core?main
+  astro-icon: file:deps/astro-icon-0.7.3.tgz
   astro-seo: ^0.6.1
   autoprefixer: 10.4.13
   clsx: ^1.2.1
@@ -52,7 +52,7 @@ devDependencies:
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.7.1
   astro-compress: 1.1.23
-  astro-icon: '@gitpkg.now.sh/stramel/astro-icon/packages/core?main_@iconify+json@2.1.154'
+  astro-icon: file:deps/astro-icon-0.7.3.tgz_@iconify+json@2.1.154
   autoprefixer: 10.4.13_postcss@8.4.20
   postcss: 8.4.20
   prettier: 2.8.1
@@ -4616,9 +4616,9 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: true
 
-  '@gitpkg.now.sh/stramel/astro-icon/packages/core?main_@iconify+json@2.1.154':
-    resolution: {tarball: https://gitpkg.now.sh/stramel/astro-icon/packages/core?main}
-    id: '@gitpkg.now.sh/stramel/astro-icon/packages/core?main'
+  file:deps/astro-icon-0.7.3.tgz_@iconify+json@2.1.154:
+    resolution: {integrity: sha512-anP2UbKEz9TAqo5xCclPlPsTXFOotWcVS6xUZM8ntnbvpA0TDXG+En3UF30tAyBuP6R6wYtcEDHeEQVSSWM5zg==, tarball: file:deps/astro-icon-0.7.3.tgz}
+    id: file:deps/astro-icon-0.7.3.tgz
     name: astro-icon
     version: 0.7.3
     peerDependencies:

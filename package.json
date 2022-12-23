@@ -1,5 +1,5 @@
 {
-  "name": "@example/portfolio",
+  "name": "@reffy/landing",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -34,7 +34,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "astro": "^1.7.1",
     "astro-compress": "^1.1.23",
-    "astro-icon": "https://gitpkg.now.sh/stramel/astro-icon/packages/core?main",
+    "astro-icon": "file:deps/astro-icon-0.7.3.tgz",
     "autoprefixer": "10.4.13",
     "postcss": "8.4.20",
     "prettier": "^2.8.1",
