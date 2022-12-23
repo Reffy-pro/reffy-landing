@@ -90,7 +90,7 @@ export default function Header(props) {
     <div className="relative bg-slate-50">
       <Popover className="relative bg-white shadow">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
+          <div className="flex items-center justify-between py-6 md:justify-start md:space-x-8 lg:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Reffy</span>
@@ -103,7 +103,7 @@ export default function Header(props) {
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
               </Popover.Button>
             </div>
-            <Popover.Group as="nav" className="hidden space-x-10 md:flex">
+            <Popover.Group as="nav" className="hidden space-x-8 lg:space-x-10 md:flex">
               <Popover className="relative">
                 {({ open }) => (
                   <>
